@@ -1,0 +1,34 @@
+{
+  "name": "cpf-validator-ts",
+  "version": "1.0.0",
+  "description": "Pacote javascript para validação de CPF",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/walesl04/cpf-validator-ts",
+  "repository": "https://github.com/walesl04/cpf-validator-ts.git",
+  "engines": {
+    "node": ">=16", 
+    "npm" : ">=8.1.2"
+  },
+  "bugs": "https://github.com/walesl04/cpf-validator-ts/issues",  
+  "contributors": [
+    "Walesson Silva <walesson.silva.job@gmail.com> (https://github.com/walesl04)"
+  ],
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm build"
+  },
+  "keywords": [
+    "cpf",
+    "validacoes"
+  ],
+  "author": "Walesson Silva <walesson.silva.job@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
